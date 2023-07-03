@@ -412,6 +412,22 @@ button {
     width: 100%;
     margin: 0 auto;
   }
+  .switch {
+    width: 40px;
+    height: 25px;
+  }
+  .slider::before {
+    width: 19px;
+    height: 19px;
+  }
+  .switch input:checked + .slider::before {
+    background: var(--black-bg);
+    transform: translateX(16px);
+  }
+  .logo-wrapper > svg {
+    width: 19px;
+    height: 19px;
+  }
 }
 
 @media (max-width: 345px) {
@@ -421,29 +437,6 @@ button {
   .grn--btn {
     margin-top: 10px;
     margin-left: 0;
-  }
-
-  .switch {
-    height: 27px;
-    width: 50px;
-  }
-
-  .slider::before {
-    width: 25px;
-    height: 25px;
-    left: 2px;
-    bottom: 1px;
-  }
-  .switch input:checked + .slider {
-    background-color: #a2a2a2;
-  }
-  .logo-wrapper > svg {
-    width: 25px;
-    height: 25px;
-  }
-  .switch input:checked + .slider::before {
-    background: var(--black-bg);
-    transform: translateX(21px);
   }
   .task-wrapper > textarea {
     font-size: 1rem;
