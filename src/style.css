@@ -25,7 +25,7 @@
   --sec-container-inline-pads: 1.25em;
   --bg-text-font-sz: 1.595rem;
   --sm-device-bgtxt-font-sz: 1rem;
-  --txt-font-sz: 1.595rem;
+  --txt-font-sz: 1.3675rem;
   --btn-font-sz: 1.38rem;
   --todolists-btm-margn: 0.9375em;
   --btn-pads-inline: 1.875em;
@@ -45,6 +45,7 @@ body,
 h1,
 .bg-text {
   font-size: clamp(var(--sm-device-bgtxt-font-sz), 5vw, var(--txt-font-sz));
+  font-weight: 500;
 }
 
 body {
