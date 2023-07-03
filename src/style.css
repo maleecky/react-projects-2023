@@ -377,7 +377,7 @@ button {
   .bg-text,
   div,
   textarea {
-    font-size: 1em;
+    font-size: 1rem;
   }
 }
 @media (max-width: 700px) {
