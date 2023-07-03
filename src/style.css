@@ -428,6 +428,9 @@ button {
     width: 19px;
     height: 19px;
   }
+  .task-wrapper > textarea {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 345px) {
@@ -437,9 +440,6 @@ button {
   .grn--btn {
     margin-top: 10px;
     margin-left: 0;
-  }
-  .task-wrapper > textarea {
-    font-size: 1rem;
   }
 }
 
