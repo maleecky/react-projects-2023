@@ -153,6 +153,9 @@ body {
 .theme-white .slider::before {
   background-color: var(--text-clr-dark);
 }
+.theme-dark .slider::before {
+  background-color: var(--white-bg);
+}
 
 .switch input:checked + .slider {
   background-color: var(--white-bg);
