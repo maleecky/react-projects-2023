@@ -147,8 +147,11 @@ body {
   border-radius: 50px;
   left: 3px;
   bottom: 3px;
-  background-color: var(--text-clr-dark);
   transition: 0.4s;
+}
+
+.theme-white .slider::before {
+  background-color: var(--text-clr-dark);
 }
 
 .switch input:checked + .slider {
